@@ -6,7 +6,7 @@ print("Press any key to go back to the main menu.")
 while true do
     local e, _ = os.pullEvent()
     if e == "key" then
-        shell.run("/.tostyos/.menu")
+        shell.run("/.tostyos/menu.lua")
         break
     end
 end

@@ -1,0 +1,1 @@
+shell.run(".tostyos/.menu.lua")
