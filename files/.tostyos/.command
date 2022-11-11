@@ -1,0 +1,5 @@
+local tostyos_version = require("tostyos_version")
+term.clear()
+term.setCursorPos(1,1)
+print("Welcome to TostyOS " .. tostyos_version .. " Command-line")
+print("To return to the menu, type 'back'")
