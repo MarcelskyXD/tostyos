@@ -14,12 +14,7 @@ while true do
         elseif key == keys.n then
             print("Cancelled... quitting!")
             sleep(2)
-            shell.run("/.tostyos/.menu")
-            break
-        else
-            print("Invalid key. Going back to menu!")
-            sleep(1)
-            shell.run("/.tostyos/.menu")
+            shell.run("/.tostyos/menu.lua")
             break
         end
     end

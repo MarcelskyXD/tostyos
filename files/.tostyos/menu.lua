@@ -75,11 +75,11 @@ term.clear()
 
 --Conditions
 if nOption == 1 then
-   shell.run("/.tostyos/.command")
+   shell.run("/.tostyos/command.lua")
 elseif nOption == 2 then
-   shell.run("/.tostyos/.programs")
+   shell.run("/.tostyos/programs.lua")
 elseif nOption == 3 then
-   shell.run("/.tostyos/.shutdown")
+   shell.run("/.tostyos/shutdown.lua")
 else
-   shell.run("/.tostyos/.about")
+   shell.run("/.tostyos/about.lua")
 end
